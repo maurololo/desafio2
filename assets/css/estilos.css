@@ -1,0 +1,66 @@
+header{
+    background-image: url(../img/LUCYBELL1-1.jpg);
+    background-size: cover; 
+    background-repeat:no-repeat;
+    background-position: center;
+    height: 200px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:orange;
+}
+
+h1{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 150px;
+}
+
+h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+section .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.container .disco{
+    
+margin: 1rem;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(27ch, 1fr));
+
+gap: 1rem;
+}
+
+.disco .disco-image{
+    display: flex;
+    width: 20ch;
+    border: 0.75ch
+   
+}
+
+.disco .disco-image img{
+
+    width: 100%;
+    display: block;
+    object-fit: none;
+
+}
+
+
+
+footer {
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+}
